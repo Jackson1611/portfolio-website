@@ -10,7 +10,7 @@ const Home: React.FC = () => {
   return (
     <div id="home" className="w-full h-screen bg-[#e9eaeb]">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[1300px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-black-600 font-bold ml-1">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#181819] mb-3">
           Loc Nguyen
@@ -23,8 +23,8 @@ const Home: React.FC = () => {
               1000,
               "a Coder",
               1500,
-              "a Tech Enthusiast",
-              2000,
+              "a Technology Enthusiast",
+              5000,
             ]}
             wrapper="div"
             cursor={true}
@@ -32,7 +32,7 @@ const Home: React.FC = () => {
             style={{ paddingLeft: "15px" }}
           ></TypeAnimation>
         </h2>
-        <p className="text-[#000000] py-4 max-w-[700px]">
+        <p className="text-[#000000] py-4 max-w-[700px] ">
           I’m a full-stack developer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
           building responsive full-stack web applications.
