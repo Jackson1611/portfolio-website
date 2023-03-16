@@ -15,9 +15,14 @@ import Express from "../assets/skills/express.png";
 import SQL from "../assets/skills/sql.png";
 import powerbi from "../assets/skills/power.png";
 import Firebase from "../assets/skills/firebase.png";
+import Python from "../assets/skills/python.png";
+
 const Skills = () => {
   return (
-    <div id="skills" className="w-full h-screen bg-[#e9eaeb] text-black-300">
+    <div
+      id="skills"
+      className="w-full h-screen bg-[#e9eaeb] text-black-300 p-4"
+    >
       {/* Container */}
       <div className="max-w-[1300px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -165,6 +170,16 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Power BI</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <img src={Python} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Python</h3>
               </div>
             </div>
           </div>

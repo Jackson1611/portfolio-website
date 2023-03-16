@@ -17,9 +17,11 @@
     "react-icons": "^4.8.0",
     "react-image": "^4.1.0",
     "react-reveal": "^1.2.2",
+    "react-rough-notation": "^1.0.3",
     "react-scroll": "^1.8.9",
     "react-scroll-trigger": "^0.6.14",
-    "react-type-animation": "^2.1.2"
+    "react-type-animation": "^2.1.2",
+    "rough-notation": "^0.5.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

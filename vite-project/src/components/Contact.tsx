@@ -4,10 +4,11 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import { Link } from "react-scroll";
+import Firebase from "../assets/skills/firebase.png";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full lg:h-screen bg-[#e9eaeb]">
+    <div id="contact" className="w-full lg:h-screen bg-[#e9eaeb] p-4">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
         <p className="text-4xl font-bold inline border-b-4 border-pink-600">
           Contact
@@ -17,7 +18,13 @@ const Contact = () => {
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full ">
-              <div></div>
+              <div className="flex justify-center items-center">
+                <img
+                  src={Firebase}
+                  alt="Profile Picture"
+                  className="rounded-full w-64 h-64 border-4 border-pink-600"
+                />
+              </div>
               <div>
                 <h2 className="py-2">Loc Nguyen</h2>
                 <p>Full stack Developer</p>

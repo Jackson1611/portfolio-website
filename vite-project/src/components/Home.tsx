@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import Jackson from "../assets/jackson.jpg";
+import Jackson from "../assets/cv.pdf";
 
 const Home: React.FC = () => {
   return (
@@ -64,12 +64,17 @@ const Home: React.FC = () => {
           </a>
         </div>
 
-        <div>
-          <button className="text-black group border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+        <div className="flex">
+          <button className=" mr-3 text-black group border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3 " />
             </span>
+          </button>
+          <button className="text-black group border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+            <a href={Jackson} download>
+              Download resume
+            </a>
           </button>
         </div>
       </div>
