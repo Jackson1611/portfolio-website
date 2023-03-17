@@ -41,7 +41,7 @@ const About = () => {
               order="1"
             >
               {" "}
-              HTML, CSS, Javascript, and React,
+              HTML, CSS, Javascript
             </RoughNotation>{" "}
             I am a quick learner and can pick up new tech stacks as needed. I
             believe that being a great developer is not using one specific
