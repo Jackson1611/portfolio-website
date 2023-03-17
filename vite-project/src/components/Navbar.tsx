@@ -60,12 +60,12 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            to="work"
+            to="portfolio"
             smooth={true}
             duration={500}
             style={{ padding: "10px", fontSize: "20px" }}
           >
-            Work
+            Portfiolo
           </Link>
         </li>
         <li>

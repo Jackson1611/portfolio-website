@@ -32,7 +32,7 @@ const Home: React.FC = () => {
             style={{ paddingLeft: "15px" }}
           ></TypeAnimation>
         </h2>
-        <p className="text-[#000000] py-4 max-w-[700px] ">
+        <p className="text-[#000000] py-4 max-w-[700px]   ">
           I’m a full-stack developer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
           building responsive full-stack web applications.
@@ -64,7 +64,7 @@ const Home: React.FC = () => {
           </a>
         </div>
 
-        <div className="flex">
+        <div className="flex mt-1">
           <button className=" mr-3 text-black group border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
             View Work
             <span className="group-hover:rotate-90 duration-300">
