@@ -4,7 +4,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import { Link } from "react-scroll";
-import Firebase from "../assets/skills/firebase.png";
+import Firebase from "../assets/skills/s.png";
 
 const Contact = () => {
   return (

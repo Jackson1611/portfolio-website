@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
-import Firebase from "../assets/skills/github1.png";
+import Firebase from "../assets/skills/jackson.png";
 
 const About = () => {
   return (
