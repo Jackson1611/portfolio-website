@@ -8,7 +8,7 @@ import Firebase from "../assets/skills/s.png";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full lg:h-screen bg-[#e9eaeb] p-4 py-20">
+    <div id="contact" className="w-full lg:h-screen bg-[#e9eaeb] p-4 py-20 ">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
         <p className="text-4xl font-bold inline border-b-4 border-pink-600">
           Contact

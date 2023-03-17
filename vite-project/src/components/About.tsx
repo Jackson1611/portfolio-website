@@ -71,7 +71,7 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mr-7 p-4 hover:scale-105 ease-in duration-300">
-          <img src={Firebase} className="rounded-xl" alt="/" />
+          <img src={Firebase} className="rounded-xl " alt="/" />
         </div>
       </div>
     </div>
