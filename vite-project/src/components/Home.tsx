@@ -52,12 +52,12 @@ const Home: React.FC = () => {
               <FaGithub />
             </div>
           </a>
-          <a href="/#contact">
+          <a href="mailto:jackson161199@gmail.com">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <AiOutlineMail />
             </div>
           </a>
-          <a href="/resume">
+          <a href={Jackson} download>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <BsFillPersonLinesFill />
             </div>

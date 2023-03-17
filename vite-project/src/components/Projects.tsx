@@ -23,37 +23,37 @@ const Projects = () => {
           <ProjectItem
             title="Chat app"
             backgroundImg={Chat}
-            projectUrl="/chat"
+            projectUrl="https://github.com/Jackson1611/react-native-chatapp"
             tech="React Native & Firebase "
           />
           <ProjectItem
             title="Address finder"
             backgroundImg={Map}
-            projectUrl="/crypto"
+            projectUrl="https://github.com/Jackson1611/mobile-programming/tree/main/FindAddress"
             tech="React Native"
           />
           <ProjectItem
             title="Campground advisor"
             backgroundImg={Camp}
-            projectUrl="/netflix"
+            projectUrl="https://github.com/Jackson1611/camp-ground-advisor"
             tech="NodeJS, Express, MongoDB, EJS"
           />
           <ProjectItem
             title="Personal trainer"
             backgroundImg={Reactapp}
-            projectUrl="/twitch"
+            projectUrl="https://github.com/Jackson1611/personal-trainer"
             tech="React with MUI"
           />
           <ProjectItem
             title="Bookstore backend"
             backgroundImg={Book}
-            projectUrl="/twitch"
+            projectUrl="https://github.com/Jackson1611/spring-boot-bookstore-app"
             tech="Java, SpringBoot"
           />
           <ProjectItem
-            title="Booking system database design"
+            title="Database design"
             backgroundImg={SQL}
-            projectUrl="/twitch"
+            projectUrl="https://github.com/Jackson1611/SQL-database-design"
             tech="SQL"
           />
         </div>

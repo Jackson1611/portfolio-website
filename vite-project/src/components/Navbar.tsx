@@ -18,7 +18,7 @@ const Navbar = () => {
             style={{
               width: "90px",
               height: "90px",
-              marginTop: "10px",
+              marginTop: "20px",
               marginLeft: "10px",
             }}
           />
@@ -36,7 +36,7 @@ const Navbar = () => {
             style={{ padding: "10px", fontSize: "20px" }}
             className="hover:text-pink-600 ease-in duration-300"
           >
-            Home
+            <button>Home</button>
           </Link>
         </li>
         <li>
@@ -47,7 +47,7 @@ const Navbar = () => {
             style={{ padding: "10px", fontSize: "20px" }}
             className="hover:text-pink-600 ease-in duration-300"
           >
-            About
+            <button>About</button>
           </Link>
         </li>
         <li>
@@ -58,7 +58,7 @@ const Navbar = () => {
             style={{ padding: "10px", fontSize: "20px" }}
             className="hover:text-pink-600 ease-in duration-300"
           >
-            Skills
+            <button>Skills</button>
           </Link>
         </li>
         <li>
@@ -69,7 +69,7 @@ const Navbar = () => {
             style={{ padding: "10px", fontSize: "20px" }}
             className="hover:text-pink-600 ease-in duration-300"
           >
-            Portfiolo
+            <button>Portfolio</button>
           </Link>
         </li>
         <li>
@@ -80,7 +80,7 @@ const Navbar = () => {
             style={{ padding: "10px", fontSize: "20px" }}
             className="hover:text-pink-600 ease-in duration-300"
           >
-            Contact
+            <button>Contact</button>
           </Link>
         </li>
       </ul>

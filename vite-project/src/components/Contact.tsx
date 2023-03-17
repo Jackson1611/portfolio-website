@@ -4,7 +4,8 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import { Link } from "react-scroll";
-import Firebase from "../assets/skills/s.png";
+import Firebase from "../assets/skills/ava.jpeg";
+import Jackson from "../assets/cv.pdf";
 
 const Contact = () => {
   return (
@@ -47,12 +48,12 @@ const Contact = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <a href="/#contact">
+                <a href="mailto:jackson161199@gmail.com">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                 </a>
-                <a href="/resume">
+                <a href={Jackson} download>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>
