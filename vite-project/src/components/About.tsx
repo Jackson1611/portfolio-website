@@ -15,9 +15,22 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             About
           </p>
-          <h2 className="py-4 text xl">Who I Am</h2>
-          <p className="py-2 text-black-800 text-lg">
-            I specialize in building{" "}
+          <h2 className="text-3xl font-bold mt-12">
+            Hello! I'm Loc, a{" "}
+            <RoughNotation
+              type="highlight"
+              show={true}
+              color="#ddccff"
+              animate={true}
+              animationDuration={7000}
+              order="1"
+            >
+              developer
+            </RoughNotation>{" "}
+            based in Helsinki
+          </h2>
+          <p className="py-2 text-black-800 text-lg mt-3">
+            I love building tools that are{" "}
             <RoughNotation
               type="highlight"
               show={true}
@@ -26,49 +39,138 @@ const About = () => {
               animationDuration={7000}
               order="1"
             >
-              mobile responsive front-end UI
+              user-friendly, simple
             </RoughNotation>{" "}
-            applications that connect with API’s and other backend technologies.
-            I’m passionate about learning new technologies and understand there
-            is more than one way to accomplish a task. Though I am most
-            proficient in building front-end applications using
+            and{" "}
             <RoughNotation
               type="highlight"
               show={true}
-              color="#ffb3ff"
+              color="#ffff80"
               animate={true}
-              animationDuration={5000}
+              animationDuration={7000}
               order="1"
             >
-              {" "}
-              HTML, CSS, Javascript
+              delightful
             </RoughNotation>{" "}
-            I am a quick learner and can pick up new tech stacks as needed. I
-            believe that being a great developer is not using one specific
-            language, but choosing the best tool for the job.
           </p>
-          <p className="py-2 text-black-600 text-lg">
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as
+          <p className="py-2 text-black-800 text-lg">
+            My journey began at LAB University of Applied Sciences, where I
+            gained a solid foundation in business operation{" "}
             <RoughNotation
               type="highlight"
               show={true}
-              color="#99b3ff"
+              color="#ffff80"
               animate={true}
-              animationDuration={3000}
+              animationDuration={7000}
+              order="1"
             >
-              WordPress, BigCommerce, and Shopify
+              E commerce
             </RoughNotation>{" "}
-            . I have experience working directly with clients and taking mock
-            wireframes all the way to deployed applications. In my spare time I
-            run Code Commerce, a Youtube channel where I teach web developement
-            and various front-end technologies.
+            and{" "}
+            <RoughNotation
+              type="highlight"
+              show={true}
+              color="#ffff80"
+              animate={true}
+              animationDuration={7000}
+              order="1"
+            >
+              digital marketing
+            </RoughNotation>{" "}
+            . However, as I delved deeper into the world of technology, I
+            realized that my true passion lay in software, data, and tech. This
+            led me to pursue further education at Haaga Helia University of
+            Applied Sciences, where I learned a great deal about{" "}
+            <RoughNotation
+              type="highlight"
+              show={true}
+              color="#ddccff"
+              animate={true}
+              animationDuration={7000}
+              order="1"
+            >
+              software engineering
+            </RoughNotation>{" "}
+            ,{" "}
+            <RoughNotation
+              type="highlight"
+              show={true}
+              color="#ddccff"
+              animate={true}
+              animationDuration={7000}
+              order="1"
+            >
+              front-end
+            </RoughNotation>{" "}
+            ,{" "}
+            <RoughNotation
+              type="highlight"
+              show={true}
+              color="#ddccff"
+              animate={true}
+              animationDuration={7000}
+              order="1"
+            >
+              back-end developement
+            </RoughNotation>{" "}
+            and{" "}
+            <RoughNotation
+              type="highlight"
+              show={true}
+              color="#ddccff"
+              animate={true}
+              animationDuration={7000}
+              order="1"
+            >
+              database management
+            </RoughNotation>{" "}
+            , and other technical skills.Throughout my journey, I have also
+            taken on the role of a non-official{" "}
+            <RoughNotation
+              type="highlight"
+              show={true}
+              color="#ffff80"
+              animate={true}
+              animationDuration={7000}
+              order="1"
+            >
+              coding tutor
+            </RoughNotation>{" "}
+            for freshers. Helping others learn and grow in this field has been
+            incredibly rewarding, and has allowed me to further hone my own
+            skills.
           </p>
-          <Link to="work">
-            <p className="py-2 text-black-600 underline cursor-pointer">
-              Check out some of my latest projects.
-            </p>
-          </Link>
+          <p className="py-2 text-black-600 text-lg">
+            With my background in both business and technology, I am
+            well-equipped to create tools that not only function flawlessly, but
+            also provide a seamless user experience. Whether it's developing
+            software or designing a user interface, I am passionate about
+            finding{" "}
+            <RoughNotation
+              type="underline"
+              show={true}
+              color="#00ff00"
+              animate={true}
+              animationDuration={7000}
+              order="1"
+            >
+              creative solutions
+            </RoughNotation>{" "}
+            that make life easier for others.
+          </p>
+          <p className="py-2 text-black-600 text-lg">
+            I'm currently looking for a kick-start to my carrer in technology.{" "}
+            <RoughNotation
+              type="circle"
+              show={true}
+              color="#ff3333"
+              animate={true}
+              animationDuration={7000}
+              order="1"
+            >
+              Hire me?
+            </RoughNotation>{" "}
+          </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mr-7 p-4 hover:scale-105 ease-in duration-300">
           <img src={Firebase} className="rounded-xl " alt="/" />

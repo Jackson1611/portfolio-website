@@ -33,8 +33,11 @@ const Navbar = () => {
             to="home"
             smooth={true}
             duration={500}
-            style={{ padding: "10px", fontSize: "20px" }}
-            className="hover:text-pink-600 ease-in duration-300"
+            style={{
+              padding: "10px",
+              fontSize: "20px",
+            }}
+            className="hover:text-pink-600 ease-in duration-300 font-mono	"
           >
             <button>Home</button>
           </Link>
@@ -45,7 +48,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             style={{ padding: "10px", fontSize: "20px" }}
-            className="hover:text-pink-600 ease-in duration-300"
+            className="hover:text-pink-600 ease-in duration-300 font-mono"
           >
             <button>About</button>
           </Link>
@@ -56,7 +59,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             style={{ padding: "10px", fontSize: "20px" }}
-            className="hover:text-pink-600 ease-in duration-300"
+            className="hover:text-pink-600 ease-in duration-300 font-mono"
           >
             <button>Skills</button>
           </Link>
@@ -67,7 +70,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             style={{ padding: "10px", fontSize: "20px" }}
-            className="hover:text-pink-600 ease-in duration-300"
+            className="hover:text-pink-600 ease-in duration-300 font-mono"
           >
             <button>Portfolio</button>
           </Link>
@@ -78,7 +81,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             style={{ padding: "10px", fontSize: "20px" }}
-            className="hover:text-pink-600 ease-in duration-300"
+            className="hover:text-pink-600 ease-in duration-300 font-mono"
           >
             <button>Contact</button>
           </Link>

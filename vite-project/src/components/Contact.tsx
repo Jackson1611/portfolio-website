@@ -113,9 +113,11 @@ const Contact = () => {
                     name="message"
                   ></textarea>
                 </div>
-                <button className="text-black group border-2 rounded-lg p-3 border-black px-6 py-3 my-3 flex items-center hover:bg-pink-600 hover:border-pink-600">
-                  Send Message
-                </button>
+                <div className="flex justify-center items-center">
+                  <button className="text-black  group border-2 rounded-lg p-3 border-black px-6 py-3 my-3 flex items-center hover:bg-pink-600 hover:border-pink-600">
+                    Send Message
+                  </button>
+                </div>
               </form>
             </div>
           </div>
