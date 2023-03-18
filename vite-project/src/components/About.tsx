@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full md:h-screen p-2 flex items-center py-16 bg-[#e9eaeb]"
+      className="w-full md:h-screen p-2 flex items-center py-16 bg-[#e9eaeb] mt-36"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 p-4">
         <div className="col-span-2">
@@ -111,9 +111,9 @@ const About = () => {
               animationDuration={7000}
               order="1"
             >
-              back-end developement
+              back-end
             </RoughNotation>{" "}
-            and{" "}
+            developement and{" "}
             <RoughNotation
               type="highlight"
               show={true}

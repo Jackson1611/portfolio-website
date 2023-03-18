@@ -21,7 +21,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="w-full h-screen bg-[#e9eaeb] text-black-300 p-4"
+      className="w-full h-fit bg-[#e9eaeb] text-black-300 p-4 mt-36"
     >
       {/* Container */}
       <div className="max-w-[1300px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -139,7 +139,7 @@ const Skills = () => {
                 <img src={SQL} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>PostgreSQL</h3>
+                <h3>Postgres</h3>
               </div>
             </div>
           </div>

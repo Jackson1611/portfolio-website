@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div>
+    <div className=" bg-[#e9eaeb]">
       <Navbar />
       <Home />
       <About />
