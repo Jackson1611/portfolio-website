@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <div
       id="portfolio"
-      className="w-full h-auto justify-items-center bg-[#e9eaeb] p-4 "
+      className="w-full h-auto justify-items-center bg-[#e9eaeb] p-4 mt-36"
     >
       <div className="max-w-[1300px] mx-auto px-2 py-20 mb-8 mt-10">
         <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
