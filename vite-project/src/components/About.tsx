@@ -84,7 +84,7 @@ const About = () => {
             <RoughNotation
               type="highlight"
               show={true}
-              color="#ddccff"
+              color="#ffbb99"
               animate={true}
               animationDuration={7000}
               order="1"
@@ -95,7 +95,7 @@ const About = () => {
             <RoughNotation
               type="highlight"
               show={true}
-              color="#ddccff"
+              color="#ffbb99"
               animate={true}
               animationDuration={7000}
               order="1"
@@ -106,7 +106,7 @@ const About = () => {
             <RoughNotation
               type="highlight"
               show={true}
-              color="#ddccff"
+              color="#ffbb99"
               animate={true}
               animationDuration={7000}
               order="1"
@@ -117,7 +117,7 @@ const About = () => {
             <RoughNotation
               type="highlight"
               show={true}
-              color="#ddccff"
+              color="#ffbb99"
               animate={true}
               animationDuration={7000}
               order="1"
