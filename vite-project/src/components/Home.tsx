@@ -5,6 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Jackson from "../assets/cv.pdf";
+import { Link } from "react-scroll";
 
 const Home: React.FC = () => {
   return (
@@ -16,14 +17,14 @@ const Home: React.FC = () => {
           Loc Nguyen
         </h1>
         <h2 className="flex text-4xl sm:text-7xl font-bold text-[#de0495]">
-          I'm
+          I'm a
           <TypeAnimation
             sequence={[
-              "a Developer",
+              "Developer",
               1000,
-              "a Coder",
+              "Coder",
               1500,
-              "a Technology Enthusiast",
+              "Technology Enthusiast",
               5000,
             ]}
             wrapper="div"
@@ -65,12 +66,20 @@ const Home: React.FC = () => {
         </div>
 
         <div className="flex mt-1">
-          <button className=" mr-3 text-black group border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+          <Link
+            activeClass="active"
+            to="portfolio"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1500}
+            className=" mr-3 text-black group border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600"
+          >
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3 " />
             </span>
-          </button>
+          </Link>
           <button className="text-black group border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
             <a href={Jackson} download>
               Download resume
