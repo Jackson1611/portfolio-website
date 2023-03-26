@@ -20,7 +20,7 @@ const Projects = () => {
           Portfolio
         </p>
         <h2 className="py-4">What I've Built</h2>
-        <div className="grid md:grid-cols-3 gap-8 justify-center place-items-center">
+        <div className="grid md:grid-cols-3 gap-5 justify-center place-items-center">
           <ProjectItem
             title="Chat app"
             backgroundImg={Chat}

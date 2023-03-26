@@ -34,7 +34,7 @@ const About = () => {
           </p>
           <p className="py-2 text-black-800 text-lg">
             My journey began at LAB University of Applied Sciences, where I
-            gained a solid foundation in business operation E commerce and{" "}
+            gained a solid foundation in{" "}
             <RoughNotation
               type="highlight"
               show={true}
@@ -43,7 +43,18 @@ const About = () => {
               animationDuration={7000}
               order="1"
             >
-              digital marketing
+              business
+            </RoughNotation>{" "}
+            operation E-commerce and digital{" "}
+            <RoughNotation
+              type="highlight"
+              show={true}
+              color="#ffff80"
+              animate={true}
+              animationDuration={7000}
+              order="1"
+            >
+              marketing
             </RoughNotation>{" "}
             . However, as I delved deeper into the world of technology, I
             realized that my true passion lay in software, data, and tech. This
@@ -57,9 +68,9 @@ const About = () => {
               animationDuration={7000}
               order="1"
             >
-              software engineering
+              software
             </RoughNotation>{" "}
-            ,ICT infrastucture, Networking{" "}
+            engineering, ICT infrastucture, networking,{" "}
             <RoughNotation
               type="highlight"
               show={true}
@@ -68,18 +79,7 @@ const About = () => {
               animationDuration={7000}
               order="1"
             >
-              front-end
-            </RoughNotation>{" "}
-            ,{" "}
-            <RoughNotation
-              type="highlight"
-              show={true}
-              color="#ffbb99"
-              animate={true}
-              animationDuration={7000}
-              order="1"
-            >
-              back-end
+              web
             </RoughNotation>{" "}
             developement and{" "}
             <RoughNotation
@@ -95,9 +95,9 @@ const About = () => {
             management, and other technical skills.Throughout my journey, I have
             also taken on the role of a non-official coding{" "}
             <RoughNotation
-              type="highlight"
+              type="circle"
               show={true}
-              color="#ffff80"
+              color="#ff00ff"
               animate={true}
               animationDuration={7000}
               order="1"
@@ -143,9 +143,9 @@ const About = () => {
               animationDuration={7000}
               order="1"
             >
-              creative solutions
+              creative
             </RoughNotation>{" "}
-            that make life easier for others.
+            solutions that make life easier for others.
           </p>
           <p className="py-2 text-black-600 text-lg mb-20">
             I'm currently looking for a kick-start to my carrer in technology.{" "}

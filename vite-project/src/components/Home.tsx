@@ -17,20 +17,23 @@ const Home: React.FC = () => {
           Loc Nguyen
         </h1>
         <h2 className="flex text-4xl sm:text-7xl font-bold text-[#de0495]">
-          I'm a
+          I'm
           <TypeAnimation
             sequence={[
-              "Developer",
+              "a developer",
               1000,
-              "Coder",
+              "a coder",
               1500,
-              "Technology Enthusiast",
+              "a photographer",
+              1500,
+              "a tech lover",
               5000,
             ]}
             wrapper="div"
             cursor={true}
             repeat={Infinity}
-            style={{ paddingLeft: "15px" }}
+            style={{ paddingLeft: "11px" }}
+            className="text-4xl"
           ></TypeAnimation>
         </h2>
         <p className="text-[#000000] py-4 max-w-[700px]   ">
