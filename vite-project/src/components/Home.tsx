@@ -24,16 +24,13 @@ const Home: React.FC = () => {
               1000,
               "a coder",
               1500,
-              "a photographer",
-              1500,
               "a tech lover",
               5000,
             ]}
             wrapper="div"
             cursor={true}
             repeat={Infinity}
-            style={{ paddingLeft: "11px" }}
-            className="text-4xl"
+            style={{ paddingLeft: "14px" }}
           ></TypeAnimation>
         </h2>
         <p className="text-[#000000] py-4 max-w-[700px]   ">

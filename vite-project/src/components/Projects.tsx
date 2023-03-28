@@ -8,6 +8,7 @@ import Reactapp from "../assets/projects/react.png";
 import Book from "../assets/projects/book.png";
 import SQL from "../assets/projects/sql.jpg";
 import inventory from "../assets/projects/inventory.png";
+import coin from "../assets/projects/coin.png";
 
 const Projects = () => {
   return (
@@ -21,6 +22,13 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-3 gap-5 justify-center place-items-center">
+          <ProjectItem
+            title="Basecoin"
+            backgroundImg={coin}
+            demoUrl="https://basecoinapp.netlify.app/"
+            projectUrl="https://github.com/Jackson1611/crypto-project"
+            tech="React and Tailwind CSS "
+          />
           <ProjectItem
             title="Chat app"
             backgroundImg={Chat}
