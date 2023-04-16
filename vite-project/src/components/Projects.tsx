@@ -33,13 +33,13 @@ const Projects = () => {
           <ProjectItem
             title="Helsinki bike"
             backgroundImg={bike}
-            projectUrl="https://github.com/Jackson1611/secondhand-store"
-            tech="PERN stack"
+            projectUrl="https://github.com/Jackson1611/helsinki-bike-app"
+            tech="PERN stack  "
           />
           <ProjectItem
             title="Chat app"
             backgroundImg={Chat}
-            projectUrl="https://github.com/Jackson1611/helsinki-bike-app"
+            projectUrl="https://github.com/Jackson1611/react-native-chatapp"
             tech="React Native & Firebase "
           />
           <ProjectItem
