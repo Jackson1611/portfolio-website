@@ -9,6 +9,7 @@ import Book from "../assets/projects/book.png";
 import SQL from "../assets/projects/sql.jpg";
 import inventory from "../assets/projects/inventory.png";
 import coin from "../assets/projects/coin.png";
+import bike from "../assets/projects/bike.png";
 
 const Projects = () => {
   return (
@@ -30,9 +31,15 @@ const Projects = () => {
             tech="React and Tailwind CSS "
           />
           <ProjectItem
+            title="Helsinki bike"
+            backgroundImg={bike}
+            projectUrl="https://github.com/Jackson1611/secondhand-store"
+            tech="PERN stack"
+          />
+          <ProjectItem
             title="Chat app"
             backgroundImg={Chat}
-            projectUrl="https://github.com/Jackson1611/react-native-chatapp"
+            projectUrl="https://github.com/Jackson1611/helsinki-bike-app"
             tech="React Native & Firebase "
           />
           <ProjectItem
